@@ -1,0 +1,25 @@
+Navigate to the Repository and Create Directory: Open your terminal and run the following commands to navigate to  alx-intermediate-frontend repository and create the 0x03-sass_scss directory:
+
+cd path/to/alx-intermediate-frontend
+mkdir 0x03-sass_scss
+cd 0x03-sass_scss
+
+Install Node.js Version 20.16 (Optional): Use the following command to install Node Version Manager (NVM):
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+After running the command, exit the terminal:
+exit
+
+Install Node.js Version 20.16: Once the terminal is reopened, install Node.js version 20.16 using NVM:
+nvm install 20.16
+nvm use 20.16
+
+Install SASS: With Node.js installed, run the following command to install SASS:
+npm install sass -v 3.7.4
+
+Create the Installation Script: Create an empty file named 0-installation-script:
+touch 0-installation-script
+
+
+
+
